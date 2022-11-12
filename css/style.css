@@ -8,9 +8,109 @@
     --colour-white: hsl(0, 0%, 100%);
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
 p {
     font-size: 14px;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+
+    display: grid;
+    grid-template-rows: 1fr min-content;
+    justify-items: center;
+    align-items: center;
+
+    background-color: var(--colour-cream);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+    margin: 1rem;
+    background-color: var(--colour-white);
+    border-radius: 10px;
+}
+
+h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--colour-dark-grayish-blue);
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+    content: url(../images/image-product-mobile.jpg);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+
+    padding: 1.5rem;
+}
+
+.price-box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.perfume {
+    letter-spacing: 0.5ch;
+}
+
+.product-title {
+    color: var(--colour-very-dark-blue);
+    line-height: 1.5ch;
+}
+
+.description {
+    line-height: 2.5ch;
+}
+
+.discount-price {
+    color: var(--colour-dark-cyan);
+}
+
+.previous-price {
+    color: var(--colour-dark-grayish-blue);
+    text-decoration: line-through;
+    font-weight: 500;
+}
+
+.add-to-cart-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    background-color: var(--colour-dark-cyan);
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 100%;
+}
+
+.add-to-cart-button p {
+    color: var(--colour-white);
+    font-weight: 700;
 }
