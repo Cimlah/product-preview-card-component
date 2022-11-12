@@ -117,3 +117,12 @@ p {
     color: var(--colour-white);
     font-weight: 700;
 }
+
+.add-to-cart-button:hover {
+    cursor: pointer;
+    background-color: var(--colour-very-dark-blue);
+}
+
+.add-to-cart-button:focus {
+    background-color: var(--colour-very-dark-blue);
+}
