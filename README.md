@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/product-preview-card-component-with-flexbox-and-grid-O_ZXIolGcw)
 - [Live Site URL](https://cimlah.github.io/product-preview-card-component/)
 
 ## Author
